@@ -1,3 +1,42 @@
+<!-- visual-showroom:start -->
+<p align="center">
+  <img src="docs/showroom/readme-banner.svg" alt="Salary Linear Regression — repository cover" width="100%">
+</p>
+
+<p align="center">
+  <strong>Salary Linear Regression</strong><br>
+  MACHINE LEARNING &amp; LANGUAGE
+</p>
+
+<p align="center">
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/salary-linear-regression"><strong>Explore the showroom ↗</strong></a> ·
+  <a href="#implementation--original-documentation">Setup &amp; implementation ↓</a>
+</p>
+
+Linear regression written by hand in PyTorch to predict salary from years of experience, trained with plain gradient descent.
+
+## Visual tour
+
+[![Experience versus salary plot from the original repository notebook](docs/showroom/readme-view-1.png)](https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/salary-linear-regression)
+
+<p align="center">
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/salary-linear-regression"><img src="docs/showroom/readme-view-2.png" alt="Train versus test split" width="48%"></a>
+  <a href="https://sajjad-dehghan-personal-site.prisoner-sedwna.workers.dev/projects/salary-linear-regression"><img src="docs/showroom/readme-view-3.png" alt="Actual versus predicted salary" width="48%"></a>
+</p>
+
+1. Experience versus salary plot from the original repository notebook
+2. Train versus test split
+3. Actual versus predicted salary
+
+Original saved notebook outputs, not a product UI or a general model accuracy claim.
+
+## Implementation & original documentation
+
+The existing run instructions, architecture, limitations and credits are preserved below.
+
+---
+<!-- visual-showroom:end -->
+
 # Salary Prediction with Linear Regression in PyTorch
 
 Predicting salary from years of experience with a **simple linear regression model written from scratch in PyTorch**. The gradients and gradient-descent updates are hand-written; no `nn.Module` or `optim`.
